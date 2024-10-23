@@ -1,0 +1,24 @@
+.todo-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  color: gray;
+  &__first {
+    min-width: 20%;
+  }
+  &__button {
+    padding: 5px;
+    border: 1px solid transparent;
+    &:hover {
+      border-color: brown;
+    }
+    &--clear {
+      text-decoration: underline;
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}
